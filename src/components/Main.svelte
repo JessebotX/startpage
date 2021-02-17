@@ -8,19 +8,19 @@
             <li>
                 <LinkItem
                     href="https://www.youtube.com/" 
-                    img="../images/youtube.png" 
+                    img="./images/youtube.png" 
                     alt="Youtube"/>
             </li>
             <li>
                 <LinkItem
                     href="https://github.com/JessebotX" 
-                    img="../images/github.png" 
+                    img="./images/github.png" 
                     alt="Github"/>
             </li>
             <li>
                 <LinkItem
                     href="https://gitlab.com/JessebotX" 
-                    img="../images/gitlab.png" 
+                    img="./images/gitlab.png" 
                     alt="Gitlab"/>
             </li>
         </ul>
@@ -28,19 +28,19 @@
             <li>
                 <LinkItem
                     href="https://mail.protonmail.com/inbox" 
-                    img="../images/protonmail.png" 
+                    img="./images/protonmail.png" 
                     alt="ProtonMail"/>
             </li>
             <li>
                 <LinkItem
                     href="https://mail.google.com/mail/u/0/#inbox" 
-                    img="../images/gmail.png" 
+                    img="./images/gmail.png" 
                     alt="Gmail"/>
             </li>
             <li>
                 <LinkItem 
                     href="https://www.nexusmods.com/"
-                    img="../images/nexusmods.png"
+                    img="./images/nexusmods.png"
                     alt="NexusMods"/>
             </li>
         </ul>
