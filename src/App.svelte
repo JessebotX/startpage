@@ -1,9 +1,11 @@
 <script>
-    import DateTime from "./components/DateTime.svelte";
-    import Main from "./components/Main.svelte";
+  import { Router } from "@roxi/routify";
+  import { routes } from "../.routify/routes";
 </script>
 
-<main>
-    <DateTime />
-    <Main />
-</main>
+<style  global>
+  @import "../assets/global.css";
+  @import "../assets/main.css";
+</style>
+
+<Router {routes} />

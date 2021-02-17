@@ -21,16 +21,13 @@
         text-decoration: none;
         transition: 0.15s ease-in-out;
     }
-
     a:hover {
         background-color: #000;
     }
-
     a:active {
         box-shadow: none;
         transform: translateY(0.25rem);
     }
-
     img {
         max-width: 32px;
         max-height: 32px;

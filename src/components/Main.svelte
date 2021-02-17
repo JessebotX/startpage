@@ -52,7 +52,6 @@
         background-color: #0f0f0f;
         padding: 1rem;
     }
-
     ul {
         align-items: center;
         display: flex;
@@ -62,7 +61,6 @@
         margin: 0;
         padding: 0;
     }
-
     li {
         align-items: center;
         display: flex;
