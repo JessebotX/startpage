@@ -1,0 +1,76 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+    background: -o-linear-gradient(135deg, #000, #0e0e0e, #121212);
+    background: linear-gradient(-45deg, #000, #0e0e0e, #121212);
+    color: #fff;
+}
+
+@-webkit-keyframes animation {
+    0% {
+        background-position-x: 0%;
+    } 50% {
+        background-position-x: 100%;
+    } 100% {
+        background-position-x: 0%;
+    }
+}
+
+@keyframes animation {
+    0% {
+        background-position-x: 0%;
+    } 50% {
+        background-position-x: 100%;
+    } 100% {
+        background-position-x: 0%;
+    }
+}
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background: linear-gradient(-45deg, #000, #0e0e0e, #121212);
+        color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: linear-gradient(-45deg, #fff, #ddd, #bbb);
+        color: #000;
+    }
+} */
+
+body {
+    -webkit-animation: animation 10s ease-in-out infinite;
+            animation: animation 10s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: 400% 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "datetime" "main";
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    height: 100%;
+}
+
+#main {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: main;
+}
+
+#datetime {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: datetime;
+}
